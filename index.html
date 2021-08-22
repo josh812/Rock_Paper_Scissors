@@ -2,10 +2,23 @@
 <html>
     <head>
         <title>Rock Paper Scissors</title>
-        <script src="./script.js"></script>
+        <script src="./script.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
-        <h1>Open the javascript console</h1>
-        <h2>And now restart the page</h2>
+        <center>
+            <button class="btn" id="rock">Rock</button>
+            <button class="btn" id="paper">Paper</button>
+            <button class="btn" id="scissors">Scissors</button>
+            <div id="results"></div>
+            <div id="text">
+                <p class="text">Player</p>
+                <p class="text">Computer</p>
+            </div>
+            <div id="score">
+                <p id="player-score">0</p>
+                <p id="computer-score">0</p>
+            </div>
+        </center>
     </body>
 </html>

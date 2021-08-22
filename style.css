@@ -1,0 +1,46 @@
+.btn {
+    width: 30vw;
+    height: 30vw;
+    font-size: 300%;
+    background-color: #343a40;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+#results-text {
+    font-size: 250%;
+    font-family: sans-serif;
+}
+#score {
+    display: flex;
+    justify-content: space-around;
+}
+#player-score {
+    padding: 50px 50px 50px 50px;
+    background-color:  #343a40;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-size: 400%;
+}
+#computer-score {
+    padding: 50px 50px 50px 50px;
+    background-color:  #343a40;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-size: 400%;
+}
+#text {
+    display: flex;
+    justify-content: space-around;
+}
+.text {
+    font-size: 200%;
+}
